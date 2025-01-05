@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//สอบย่อย ข้อ1 1.5 คะแนน
 // ฟังก์ชันสำหรับสลับค่าของตัวแปรสองตัวโดยใช้พอยน์เตอร์
 void swapValues(int* a, int* b) {
     int temp = *a;  // เก็บค่าของตัวแปร a ไว้ในตัวแปรชั่วคราว
