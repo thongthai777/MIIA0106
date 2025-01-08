@@ -2,7 +2,7 @@
 #include<string>
 using namespace std;
 
-// กำหนดโครงสร้าง struct
+// struct
 struct Student {
     string studentID;
     string nickname;
@@ -12,9 +12,9 @@ struct Student {
 };
 
 int main() {
-    Student students[10]; // สร้างอาร์เรย์ของ struct ขนาด 5
+    Student students[10]; 
 
-    // รับข้อมูลนักศึกษา
+    // Output
     for (int i = 0; i < 10; i++) {
         cout << "Enter information for student " << i + 1 << ":" << endl;
         cout << "Student ID: ";
